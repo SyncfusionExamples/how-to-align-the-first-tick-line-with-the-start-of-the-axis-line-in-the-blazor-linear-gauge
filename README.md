@@ -1,6 +1,5 @@
-# Example of customizing the intersection of the tick line and bar pointer at the beginning in the Syncfusion Blazor Linear Gauge component
+# Example of aligning the first tick line with the start of the axis line in the Syncfusion Blazor Linear Gauge component
 
-In this Blazor project, we created a sample to show how to calculate the position of the tick line and bar pointer properly at the beginning of the Linear Gauge.
+In this Blazor project, we created a sample that demonstrates how to reposition the first tick line with the start of the Linear Gauge's axis line.
 
-
-In this smaple, we have calculated the position of the tick line and bar pointer element using JavaScript Interop method in a Blazor application. The position of the path in the tick line element can be calculated by the JavaScript code snippet using **customizePath**. This method can be invoked in the [Loaded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.LinearGauge.LoadedEventArgs.html) event of the Linear Gauge. Now, the tick line and bar pointer are intersected properly at the beginning of the Linear Gauge.
+In this example, we used the JavaScript method "**customizePath**" to determine the position of the tick line. To reposition the first major tick line with the start of the axis line, call this JavaScript method in the Linear Gauge's [Loaded](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.LinearGauge.LinearGaugeEvents.html#Syncfusion_Blazor_LinearGauge_LinearGaugeEvents_Loaded) event.
